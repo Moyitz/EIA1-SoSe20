@@ -1,0 +1,29 @@
+body{
+    background-image: url("bg.png");
+}
+nav {
+padding: 10px 10px;
+position fixed;
+right: 0;
+}
+
+li a:hover {
+    color: rgb(177, 212, 245);
+   }
+
+   nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:rgba(216, 243, 201, 0.568);
+    border: 3px;
+    border-radius: 5px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
