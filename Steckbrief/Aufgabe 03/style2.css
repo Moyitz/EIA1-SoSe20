@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;   
+    background-image: url(hk.png), url(bg.png);
+    background-repeat: no-repeat, repeat;
+    background-position: top;
+        
+}
+.media{
+    width: 800px;
+}
+
+div {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  div ul{
+      right: 100px;
+      margin: 0;
+      padding: 0;
+      border: 5px;
+      padding: 5px 5px 5px 5px;
+     border-radius: 3px 15px 5px 30px;
+
+  }
+  div li{
+    display: inline-block;
+    margin: 0px;
+
+  }
+
+
+
+  div a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+#navi {
+background-color: thistle;
+border-radius: 30px;
+padding: 3px;
+
+}
+
+div a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+
+}
+div a:hover {
+    color:red;
+   }
+
+   div a::after {
+       content:" |"
+   }
+
+   
+h1 {
+    text-align: center;
+}
+
+.portrait {
+    margin: 300px 0px 0px 0px
+}
+
+.besch {
+    margin: 300px 0px 0px 0pxs
+
+}
+
+
+
+
+
