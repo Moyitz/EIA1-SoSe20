@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;   
-    background-image: url(hk.png), url(bg.png);
+    background-image: url(orange.png), url(bg.png);
     background-repeat: no-repeat, repeat;
     background-position: top;
         
@@ -9,13 +9,13 @@ body{
     width: 800px;
 }
 
-div {
+div.sticky {
     overflow: hidden;
-    background-color: black;
+    background-color:orange;
     position: fixed;
     right: 10px;
     top: 0px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
   }
 
@@ -38,11 +38,11 @@ div {
 
   div a.active {
     background-color: #4CAF50;
-    color: white;
+    color:green;
   }
 
 #navi {
-background-color: thistle;
+background-color:green;
 border-radius: 30px;
 padding: 3px;
 
@@ -54,9 +54,7 @@ div a {
     text-align: center;
 
 }
-div a:hover {
-    color:red;
-   }
+
 
    div a::after {
        content:" |"
@@ -68,7 +66,7 @@ h1 {
 }
 
 .portrait {
-    margin: 300px 0px 0px 0px
+    margin: 330px 0px 0px 0px
 }
 
 .besch {
@@ -79,4 +77,155 @@ h1 {
 
 
 
+p.zitat{
+    margin-bottom: 300px;
+}
 
+
+video.film01{
+  
+ width: 800px;
+ height: 600px;
+ margin-left: 10px;
+display: block;
+}
+
+#demoFont {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 70px;
+    letter-spacing: 5.6px;
+    word-spacing: 4.4px;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-shadow: -6px 0px 3px rgba(206,89,55,0.65);
+    text-align: center;
+    
+  
+    }
+
+
+h2.con{
+ color: orangered;
+
+ letter-spacing: 2px;
+ word-spacing: 2px;
+ font-weight: normal;
+ text-decoration: none;
+ font-style: normal;
+ font-variant: normal;
+ text-transform: none;
+}
+
+div.con{
+    margin-top: 300px;
+    margin-left: 125px;
+
+}
+
+
+
+div.formb{
+    background-color: lightgrey;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 5px 15px;
+    width:240px;
+
+
+}
+
+div.formb2{
+    background-color: lightgrey;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 5px 15px;
+    width:240px;
+    margin-top: 13px;
+
+
+}
+
+div.formb3{
+    background-color: lightgrey;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 30px 15px;
+    width:440px;
+    margin-top: 13px;
+
+
+}
+
+div.ds{
+    
+    color:lightgrey;
+    margin-left: 108px;
+    padding: 5px 0px 30px 15px;
+    width:440px;
+    margin-top: 13px;
+
+
+
+}
+
+
+div.formb4{
+    background-color: lightgrey;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 5px 15px;
+    width:240px;
+    margin-top:0px;
+
+
+}
+
+div.zitat{
+    background-color: orangered;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 5px 15px;
+    width:500px;
+    
+}
+
+div.besch{
+    background-color: orange;
+    color:white;
+    margin-left: 124px;
+    padding: 5px 0px 5px 15px;
+    width:570px;
+    margin-top: 13px;
+
+}
+
+div.p2{
+    padding: 15px 10px 5px 150px;
+}
+    
+
+div.con2 {
+    margin-top: 100px;
+    margin-left: 125px;
+
+}
+.social{
+    position: absolute;
+    top: 150px;
+    margin-left: 48.5%;
+    z-index: 9999;
+    
+}
+
+.social:hover{
+    opacity: 0.5;
+}
+
+a:hover{
+    color: green;
+    }
