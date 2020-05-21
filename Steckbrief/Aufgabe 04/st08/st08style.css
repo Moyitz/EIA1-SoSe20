@@ -1,0 +1,115 @@
+body {
+    background-image: url("bg.png");
+    font-family: sans-serif;
+    }
+    
+    div.Hauptcontainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top:200px;
+    justify-content: center;
+
+
+}
+
+div.head{
+    position: absolute;
+    display: inline-block;
+    color:black;
+    font-size: 27px;
+    margin-top:-120px;
+    margin-left: -40px;
+    z-index: 1;
+
+
+
+
+}
+
+div.text{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    font-size: 25;
+    margin-top: -30px;
+    
+}
+
+div.wrap{
+    position: absolute;
+    z-index: 1000;
+    margin-left: 180px;
+    margin-top: 140px;
+    }
+div.muschel{
+    background-image: url("muschel.png"); background-repeat: no-repeat;
+    width: 80px;
+    height: 60px;
+position: absolute ;
+display:inline-block;
+margin-left: -210px;
+margin-top: 280px;
+opacity: 10;
+z-index: 0;
+animation: new-item-animation .10s linear forwards;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+
+
+
+
+
+}
+div.muschel2{
+    position: absolute ;
+    display:inline-block;
+    margin-left: 180px;
+    margin-top: 270px;
+    opacity: 10;
+    animation: new-item-animation .10s linear forwards;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+    
+    
+    
+    
+    }
+
+    div.muschel3{
+       
+    position: absolute ;
+    display:inline-block;
+    margin-left: 160px;
+    margin-top: 430px;
+    opacity: 10;
+    z-index: 0;
+    animation: new-item-animation .10s linear forwards;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+    
+    
+    
+    
+    }
+
+
+@keyframes new-item-animation {
+    from {
+        opacity: 10;
+        transform: translateY(-400px);
+     
+}
+
+    to {
+        opacity: 0;
+        transform : translateY(0);
+        transform: rotate(90deg);
+
+    }
+}
