@@ -40,7 +40,7 @@ var eurov3: number = eurov2 / eurov;
 
 console.log("Die Emission von Europa ist : "  + eur + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit :  " + eurorel + "%" );
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um ", eurov3 + "% verändert "  );
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + eurov3 + "% verändert "  );
 console.log("2018 im Vergleich zu 2008 sind das" + eurov2 + "kg C02" );
 console.log("______________________________________________________" );
 
