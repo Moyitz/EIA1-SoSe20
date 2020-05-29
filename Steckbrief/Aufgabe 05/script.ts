@@ -38,40 +38,40 @@ var eurov: number = eur08 * 0.01;
 var eurov2: number = eur08 - eur;
 var eurov3: number = eurov2 / eurov;
 
-console.log("Die Emission von Europa ist : "  + eur ,  "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit :  " + eurorel ,  "%" );
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um ", eurov3 , "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , eurov2, "kg C02" );
+console.log("Die Emission von Europa ist : "  + eur + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit :  " + eurorel + "%" );
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um ", eurov3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + eurov2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Afrika ist : "  + afr , "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit :  " + afrrel , "%" );
-console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " , afrv3, "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , afrv2, "kg C02" );
+console.log("Die Emission von Afrika ist : "  + afr + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit :  " + afrrel + "%" );
+console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + afrv3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + afrv2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Südamerika ist : "  + samer , "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit :  " + samerrel , "%" );
-console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " , samerv3, "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , samerv2, "kg C02" );
+console.log("Die Emission von Südamerika ist : "  + samer + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit :  " + samerrel + "%" );
+console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + samerv3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + samerv2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Nordmerika ist : "  + namer , "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit :  " + namerrel , "%" );
-console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " , namerv3, "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , namerv2, "kg C02" );
+console.log("Die Emission von Nordmerika ist : "  + namer + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit :  " + namerrel + "%" );
+console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + namerv3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + namerv2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Asien ist : "  + asia , "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit :  " + asiarel , "%" );
-console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " , asiav3, "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , asiav2, "kg C02" );
+console.log("Die Emission von Asien ist : "  + asia + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit :  " + asiarel + "%" );
+console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + asiav3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + asiav2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Australien ist : "  + aus , "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit :  " + ausrel , "%" );
-console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " , ausv3, "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" , ausv2, "kg C02" );
+console.log("Die Emission von Australien ist : "  + aus + "kg C02");
+console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit :  " + ausrel + "%" );
+console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + ausv3 + "% verändert "  );
+console.log("2018 im Vergleich zu 2008 sind das" + ausv2 + "kg C02" );
 
 
 
