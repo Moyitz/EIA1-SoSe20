@@ -1,19 +1,21 @@
-
-var eur08: number = 4965.7;
-var eur: number = 4209.3;
-var afr08: number = 1028;
-var afr: number = 1235.5;
-var samer08: number = 1132.6;
-var samer: number = 1261.5;
-var asia08: number = 12954.7;
 var namer: number = 6035.6;
-var namer08: number = 6600.4;
+var samer: number = 1261.5;
+var afr: number = 1235.5;
 var asia: number = 16274.1;
 var aus: number = 2100.5;
-var aus08: number = 1993;
+var eur: number = 4209.3;
+var eur08: number = 4965.7;
 var gesamt: number = eur + afr + samer + namer + asia + aus;
 var proz1: number = gesamt * 0.01;
 var eurorel: number = eur / proz1;
+var eurov: number = eur08 * 0.01;
+var eurov2: number = eur08 - eur;
+var eurov3: number = eurov2 / eurov;
+var afr08: number = 1028;
+var samer08: number = 1132.6;
+var asia08: number = 12954.7;
+var namer08: number = 6600.4;
+var aus08: number = 1993;
 var afrrel: number = afr / proz1;
 var asiarel: number = asia / proz1;
 var ausrel: number = aus / proz1;
@@ -34,15 +36,60 @@ var ausv3: number = ausv2 / ausv;
 var afrv: number = afr08 * 0.01;
 var afrv2: number = afr08 - afr;
 var afrv3: number = afrv2 / afrv;
-var eurov: number = eur08 * 0.01;
-var eurov2: number = eur08 - eur;
-var eurov3: number = eurov2 / eurov;
 
-console.log("Die Emission von Europa ist : "  + eur + "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit :  " + eurorel + "%" );
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + eurov3 + "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" + eurov2 + "kg C02" );
-console.log("______________________________________________________" );
+function opa1(){
+    document.getElementsByClassName(".europe").style.opacity = '0.1';
+
+}
+
+function namerfunction(){
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#p1").innerHTML = "Emission absolute of North America in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in North America";
+    document.querySelector("#h2e").innerHTML = namer;
+    document.querySelector("#h3e").innerHTML = namerrel + "%";
+    document.querySelector("#h4e").innerHTML = namerv3 + "%";
+    document.querySelector("#h5e").innerHTML = namerv2 + "Kg"
+    document.querySelector("div.chart")?.setAttribute("style", "height: 19%");
+
+
+}
+
+function samerfunction(){
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in South America";
+    document.querySelector("#p1").innerHTML = "Emission absolute of South America in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#h2e").innerHTML = samer;
+    document.querySelector("#h3e").innerHTML = samerrel + "%";
+    document.querySelector("#h4e").innerHTML = samerv3 + "%";
+    document.querySelector("#h5e").innerHTML = samerv2 + "Kg"
+    document.querySelector("div.chart")?.setAttribute("style", "height: 4%");
+
+    
+    console.log("Die Emission von Südamerika ist : "  + samer + "kg C02");
+    console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit :  " + samerrel + "%" );
+    console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + samerv3 + "% verändert "  );
+    console.log("2018 im Vergleich zu 2008 sind das" + samerv2 + "kg C02" );
+    console.log("______________________________________________________" );
+
+
+}
+
+function afrfunction(){
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in Africa";
+    document.querySelector("#p1").innerHTML = "Emission absolute of Africa in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#h2e").innerHTML = afr;
+    document.querySelector("#h3e").innerHTML = afrrel + "%";
+    document.querySelector("#h4e").innerHTML = afrv3 + "%";
+    document.querySelector("#h5e").innerHTML = afrv2 + "Kg"
+    document.querySelector("div.chart")?.setAttribute("style", "height: 4%");
 
 console.log("Die Emission von Afrika ist : "  + afr + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit :  " + afrrel + "%" );
@@ -50,28 +97,94 @@ console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + 
 console.log("2018 im Vergleich zu 2008 sind das" + afrv2 + "kg C02" );
 console.log("______________________________________________________" );
 
-console.log("Die Emission von Südamerika ist : "  + samer + "kg C02");
-console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit :  " + samerrel + "%" );
-console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + samerv3 + "% verändert "  );
-console.log("2018 im Vergleich zu 2008 sind das" + samerv2 + "kg C02" );
-console.log("______________________________________________________" );
 
+}
+function asiafunction(){
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in Asia";
+    document.querySelector("#p1").innerHTML = "Emission absolute of Asia in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#h2e").innerHTML = asia;
+    document.querySelector("#h3e").innerHTML = asiarel + "%";
+    document.querySelector("#h4e").innerHTML = asiav3 + "%";
+    document.querySelector("#h5e").innerHTML = asiav2 + "Kg"
+    document.querySelector("div.chart")?.setAttribute("style", "height: 52%");
+
+
+}
+
+function ausfunction(){
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in Australia";
+    document.querySelector("#p1").innerHTML = "Emission absolute of Australia in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#h2e").innerHTML = aus;
+    document.querySelector("#h3e").innerHTML = ausrel + "%";
+    document.querySelector("#h4e").innerHTML = ausv3 + "%";
+    document.querySelector("#h5e").innerHTML = ausv2 + "Kg"
+    document.querySelector("div.chart")?.setAttribute("style", "height: 7%");
+
+
+}
+
+function eurofunction() {
+    document.querySelector("#h1e").innerHTML = "Carbon Dioxide Emissions in Europe";
+    document.querySelector("#p1").innerHTML = "Emission absolute of Europe in 2018";
+    document.querySelector("#p2").innerHTML = "Relative to total world's emission";
+    document.querySelector("#p3").innerHTML = "Growth rate between 2008 and 2018 (in %)";
+    document.querySelector("#p4").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
+    document.querySelector("#h2e").innerHTML = eur;
+    document.querySelector("#h3e").innerHTML = eurorel + "%";
+    document.querySelector("#h4e").innerHTML = eurov3 + "%";
+    document.querySelector("#h5e").innerHTML = eurov2 + "Kg";
+    document.querySelector("div.chart")?.setAttribute("style", "height: 14%");
+
+
+    console.log("Die Emission von Europa ist : "  + eur + "kg");
+    console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit :  " + eurorel + "%" );
+    console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + eurov3 + "% verändert "  );
+    console.log("2018 im Vergleich zu 2008 sind das" + eurov2 + "kg C02" );
+    console.log("______________________________________________________" );
+    }
+
+
+    
+
+
+    
+
+
+window.addEventListener("load", function() {
+    document.querySelector(".europe").addEventListener("click", eurofunction);
+    document.querySelector(".northamerica").addEventListener("click", namerfunction);
+    document.querySelector(".southamerica").addEventListener("click", samerfunction);
+    document.querySelector(".africa").addEventListener("click", afrfunction);
+    document.querySelector(".asia").addEventListener("click", asiafunction);
+    document.querySelector(".australia").addEventListener("click", ausfunction);
+
+
+}
+
+    
 console.log("Die Emission von Nordmerika ist : "  + namer + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit :  " + namerrel + "%" );
 console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + namerv3 + "% verändert "  );
 console.log("2018 im Vergleich zu 2008 sind das" + namerv2 + "kg C02" );
 console.log("______________________________________________________" );
-
+    
 console.log("Die Emission von Asien ist : "  + asia + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit :  " + asiarel + "%" );
 console.log("Für Asien hat sich 2018 im Vergleich zu 2008 die Emission um " + asiav3 + "% verändert "  );
 console.log("2018 im Vergleich zu 2008 sind das" + asiav2 + "kg C02" );
 console.log("______________________________________________________" );
-
+    
 console.log("Die Emission von Australien ist : "  + aus + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit :  " + ausrel + "%" );
 console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + ausv3 + "% verändert "  );
 console.log("2018 im Vergleich zu 2008 sind das" + ausv2 + "kg C02" );
-
-
+    
+    
+    
 
