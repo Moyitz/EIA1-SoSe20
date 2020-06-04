@@ -53,7 +53,7 @@ function namerfunction(){
     document.querySelector("#h4e").innerHTML = namerv3 + "%";
     document.querySelector("#h5e").innerHTML = namerv2 + "Kg"
     document.querySelector("div.chart")?.setAttribute("style", "height: 19%");
-
+    document.querySelector("div.prz").innerHTML = "19%";
 
 }
 
@@ -68,6 +68,7 @@ function samerfunction(){
     document.querySelector("#h4e").innerHTML = samerv3 + "%";
     document.querySelector("#h5e").innerHTML = samerv2 + "Kg"
     document.querySelector("div.chart")?.setAttribute("style", "height: 4%");
+    document.querySelector("div.prz").innerHTML = "4%";
 
     
     console.log("Die Emission von Südamerika ist : "  + samer + "kg C02");
@@ -90,6 +91,8 @@ function afrfunction(){
     document.querySelector("#h4e").innerHTML = afrv3 + "%";
     document.querySelector("#h5e").innerHTML = afrv2 + "Kg"
     document.querySelector("div.chart")?.setAttribute("style", "height: 4%");
+    document.querySelector("div.prz").innerHTML = "4%";
+
 
 console.log("Die Emission von Afrika ist : "  + afr + "kg C02");
 console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit :  " + afrrel + "%" );
@@ -110,6 +113,8 @@ function asiafunction(){
     document.querySelector("#h4e").innerHTML = asiav3 + "%";
     document.querySelector("#h5e").innerHTML = asiav2 + "Kg"
     document.querySelector("div.chart")?.setAttribute("style", "height: 52%");
+    document.querySelector("div.prz").innerHTML = "52%";
+
 
 
 }
@@ -125,6 +130,8 @@ function ausfunction(){
     document.querySelector("#h4e").innerHTML = ausv3 + "%";
     document.querySelector("#h5e").innerHTML = ausv2 + "Kg"
     document.querySelector("div.chart")?.setAttribute("style", "height: 7%");
+    document.querySelector("div.prz").innerHTML = "7%";
+
 
 
 }
@@ -140,6 +147,8 @@ function eurofunction() {
     document.querySelector("#h4e").innerHTML = eurov3 + "%";
     document.querySelector("#h5e").innerHTML = eurov2 + "Kg";
     document.querySelector("div.chart")?.setAttribute("style", "height: 14%");
+    document.querySelector("div.prz").innerHTML = "14%";
+
 
 
     console.log("Die Emission von Europa ist : "  + eur + "kg");

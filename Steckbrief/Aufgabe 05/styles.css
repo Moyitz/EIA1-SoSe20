@@ -51,3 +51,10 @@ footer p {
     height: 100%;
     background: white;
 }
+
+div.prz {
+
+    position: relative;
+    display: inline-block;
+    margin-top: -50px;
+}
