@@ -50,6 +50,7 @@ footer p {
     width: 100%;
     height: 100%;
     background: white;
+    transition: 1s;
 }
 
 div.prz {
