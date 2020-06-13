@@ -1,6 +1,6 @@
 var audioElement: string[] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
 
-function playSample(data: string) {
+function playSample(data: string) {                               
 var audio : HTMLAudioElement = new Audio(data);
 audio.play();
 console.log(data);

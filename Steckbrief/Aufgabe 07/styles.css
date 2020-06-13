@@ -114,3 +114,11 @@ background-color:  #4d4dff
 .play:hover {
     background-color: yellow;
   }
+
+  .chart {
+    position: absolute;
+    left: 1200px;
+    top:100px;
+    width: 850px;
+    height: 850px;
+}
