@@ -1,4 +1,3 @@
-"use strict";
 var namer = 6035.6;
 var samer = 1261.5;
 var afr = 1235.5;

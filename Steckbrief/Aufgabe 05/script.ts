@@ -174,10 +174,10 @@ window.addEventListener("load", function() {
     document.querySelector(".australia").addEventListener("click", ausfunction);
 
 
-}
+} 
 
     
-console.log("Die Emission von Nordmerika ist : "  + namer + "kg C02");
+console.log("Die Emission von Nordmerika ist : "  + namer + "kg C02" );
 console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit :  " + namerrel + "%" );
 console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + namerv3 + "% verändert "  );
 console.log("2018 im Vergleich zu 2008 sind das" + namerv2 + "kg C02" );
