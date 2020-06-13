@@ -117,8 +117,8 @@ background-color:  #4d4dff
 
   .chart {
     position: absolute;
-    left: 1200px;
+    left: 1000px;
     top:100px;
-    width: 850px;
-    height: 850px;
+    width: 750px;
+    height: 750px;
 }
