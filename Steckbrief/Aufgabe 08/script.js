@@ -62,4 +62,5 @@ window.addEventListener("load", function () {
     document.getElementById("rec").addEventListener("click", record);
     document.querySelector("#delete").addEventListener("click", deletefkt);
 });
+// Mit Hilfe von Hannah, Prof.Dr.Rausch und Annette
 //# sourceMappingURL=script.js.map
