@@ -165,7 +165,7 @@ function addTodo() {
 /**
  * Der check- / unchecked Zustand eines ToDo wird wie folgt gesetzt:
  */
-function toggleCheckState(index) {
+function toggleCheckState(index: number):void {
     /**
      * Das Array, , das den Checked- / Uncheck-Status der ToDos abbildet,
      * muss an jener Stelle, an der das entsprechende ToDo steht (nämlich
@@ -189,7 +189,7 @@ function toggleCheckState(index) {
 /**
  * Diese Funktion löscht ein ToDo
  */
-function deleteTodo(index) {
+function deleteTodo(index: number): void {
     /**
      * Durch "index" ist die entsprechende Stelle im Array
      * bekannt, an der das ToDo steht.
@@ -205,3 +205,45 @@ function deleteTodo(index) {
     drawListToDOM();
 }
 //# sourceMappingURL=script.js.map
+
+declare var Artyom: any;
+
+window.addEventListener("load", function(): void {
+    const artyom: any = new Artyom();
+    
+    artyom.addCommands({
+        indexes: ["erstelle Aufgabe *"],
+        smart: true,
+        action: function( i: any, wildcard: string): void {
+            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+           
+            todolist.unshift({ //Mit unshift wird Array am Anfang eingefügt//
+                text: (wildcard),
+               checked: false
+                });
+            drawListToDOM(); //Yuhuuuu es funktioniert
+        }
+
+    });
+    
+    function startContinuousArtyom(): void {
+        artyom.fatality();
+    
+        setTimeout(
+            function(): void {
+                artyom.initialize({
+                    lang: "de-DE",
+                    continuous: true,
+                    listen: true,
+                    interimResults: true,
+                    debug: true
+                }).then(function(): void {
+                    console.log("Ready!");
+                });
+            }, 
+            250);
+    }
+    
+    startContinuousArtyom();
+    
+});
